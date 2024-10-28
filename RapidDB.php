@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Plugin Name: RapidDB View',
+ * Plugin Name: RapidDB Viewer',
  * Plugin URI: 
  * Description: Display database tables content in frontend with custom query support
  * Version: 1.0
@@ -40,8 +40,8 @@ class DB_Table_Viewer
     public function add_plugin_menu()
     {
         add_menu_page(
-            'RapidDB View',
-            'RapidDB View',
+            'RapidDB Viewer',
+            'RapidDB Viewer',
             'manage_options',
             'db-table-viewer',
             array($this, 'render_admin_page'),
@@ -73,7 +73,7 @@ class DB_Table_Viewer
                         </svg>Custom Query
                     </a>
                 </li>
-                
+
 
             </ul>
         </div>
@@ -106,14 +106,8 @@ class DB_Table_Viewer
                         </select>
                     </div>
                     <!-- dasboard -->
-                    <div id="dashboard">
-                        <div>Comming Soon </div>
-                    </div>
-                    <!-- contact -->
-                    <div id="contact">
-                        <div>Coming Soon</div>
 
-                    </div>
+
                     <!-- Sorting Options -->
                     <div id="sorting_options" class=" space-y-2">
                         <label class="block font-medium">Sorting Options</label>
