@@ -5,8 +5,8 @@
  * Plugin URI: 
  * Description: Display database tables content in frontend with custom query support
  * Version: 1.0
- * Author: Your Name
- * Author URI: 
+ * Author: Samuel peters (Bieefilled)
+ * Author URI: https://github.com/Petsamuel
  * License: GPL v2 or later
  */
 
